@@ -186,3 +186,22 @@ Relevant links:
 * https://github.com/yesodweb/yesod/pull/1466
 * https://gist.github.com/snoyberg/50864f697234ff15a6c6fd0aeb183a0b
 * https://github.com/fpco/unliftio/issues/6
+
+Some nebulous thoughts:
+
+* Create a new conduit-core library with absolutely minimal deps, roll
+  resourcet into it (why bother with a separate package? doesn't help
+  anyone due to the minimal deps here).
+* conduit now depends on rio-approved packages, conduit-extra becomes
+  the kitchen sink.
+* conduit could inherit the `Conduit` and `Data.Conduit.Combinators`
+  modules from `conduit-combinators`, we can finally start advising
+  against `Data.Conduit.List`, `Data.Conduit.Binary`, and
+  `Data.Conduit.Text`. (We'd need a mono-traversable dep for that.)
+* Expose a stream-fusion kind of approach (like vegito) from
+  conduit-core, encourage for use cases that require high CPU
+  performance
+* resourcet depends on conduit-core, reexposes existing API
+* Crazy talk: drop finalizers in conduit? Gets us much closer to
+  Category (just need `injectLeftovers`), maybe closer to
+  stream-fusion stuff too. How much do we really lose?
