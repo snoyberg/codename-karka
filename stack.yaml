@@ -1,0 +1,47 @@
+resolver: lts-10.1
+packages:
+- conduit/cereal-conduit
+- conduit/conduit
+- conduit/conduit-extra
+- conduit/network-conduit-tls
+- conduit/resourcet
+
+- mono-traversable/minlen
+- mono-traversable/mono-traversable
+- mono-traversable/mono-traversable-instances
+- mono-traversable/chunked-data
+- mono-traversable/classy-prelude
+- mono-traversable/classy-prelude-conduit
+- mono-traversable/classy-prelude-yesod
+- mono-traversable/conduit-combinators
+- mono-traversable/mutable-containers
+
+- stack/
+
+- yesod/yesod-core
+- yesod/yesod-static
+- yesod/yesod-persistent
+- yesod/yesod-newsfeed
+- yesod/yesod-form
+- yesod/yesod-auth
+- yesod/yesod-auth-oauth
+- yesod/yesod-sitemap
+- yesod/yesod-test
+- yesod/yesod-bin
+- yesod/yesod
+- yesod/yesod-eventsource
+- yesod/yesod-websockets
+
+- xml/xml-conduit
+- xml/xml-hamlet
+- xml/html-conduit
+
+- yaml
+
+- wai/wai-extra
+
+- haskell-ide/project-template
+
+- http-client/http-conduit
+
+- logger/monad-logger

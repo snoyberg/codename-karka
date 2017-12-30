@@ -1,0 +1,27 @@
+[submodule "conduit"]
+	path = conduit
+	url = https://github.com/snoyberg/conduit
+[submodule "haskell-ide"]
+	path = haskell-ide
+	url = https://github.com/fpco/haskell-ide
+[submodule "http-client"]
+	path = http-client
+	url = https://github.com/snoyberg/http-client
+[submodule "logger"]
+	path = logger
+	url = https://github.com/kazu-yamamoto/logger
+[submodule "mono-traversable"]
+	path = mono-traversable
+	url = https://github.com/snoyberg/mono-traversable
+[submodule "wai"]
+	path = wai
+	url = https://github.com/yesodweb/wai
+[submodule "xml"]
+	path = xml
+	url = https://github.com/snoyberg/xml
+[submodule "yaml"]
+	path = yaml
+	url = https://github.com/snoyberg/yaml
+[submodule "yesod"]
+	path = yesod
+	url = https://github.com/yesodweb/yesod
