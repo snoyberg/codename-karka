@@ -5,8 +5,7 @@ tangentially-related projects and initiatives, mostly around
 refactoring libraries. The ultimate goal for all of this can be
 summarized easily as:
 
-> Make it easier to adopt Haskell for writing large scale production
-> software
+> Make it easier to adopt Haskell for writing production software
 
 This document was originally written by Michael Snoyman, and has a
 bias towards my libraries. Hopefully others contribute their ideas
