@@ -146,6 +146,7 @@ __Definitely out__
     * unix and Win32 (per platform basis)
     * time
     * typed-process
+    * exceptions (needed only for the `MonadThrow` typeclass, up for serious debate)
 
 2. Define a set of GHC versions to support. Proposal: only GHC 8.0.2
    and 8.2.2 to start.
