@@ -28,3 +28,6 @@
 [submodule "persistent"]
 	path = persistent
 	url = https://github.com/yesodweb/persistent
+[submodule "stack"]
+	path = stack
+	url = https://github.com/commercialhaskell/stack
