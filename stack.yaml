@@ -17,6 +17,7 @@ packages:
 - mono-traversable/mutable-containers
 
 - stack/
+- stack/subs/rio/
 
 - yesod/yesod-core
 - yesod/yesod-static
@@ -53,3 +54,8 @@ packages:
 - persistent/persistent-mongoDB
 - persistent/persistent-mysql
 - persistent/persistent-postgresql
+
+flags:
+  stack:
+    hide-dependency-versions: true
+    supported-build: true
