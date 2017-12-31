@@ -25,3 +25,6 @@
 [submodule "yesod"]
 	path = yesod
 	url = https://github.com/yesodweb/yesod
+[submodule "persistent"]
+	path = persistent
+	url = https://github.com/yesodweb/persistent

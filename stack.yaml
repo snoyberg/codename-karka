@@ -45,3 +45,11 @@ packages:
 - http-client/http-conduit
 
 - logger/monad-logger
+
+- persistent/persistent
+- persistent/persistent-template
+- persistent/persistent-sqlite
+- persistent/persistent-test
+- persistent/persistent-mongoDB
+- persistent/persistent-mysql
+- persistent/persistent-postgresql
