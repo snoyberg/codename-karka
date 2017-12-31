@@ -1,5 +1,7 @@
 # codename-karka
 
+[![Build Status](https://travis-ci.org/snoyberg/codename-karka.svg?branch=master)](https://travis-ci.org/snoyberg/codename-karka) [![Build status](https://ci.appveyor.com/api/projects/status/3fo0ggm90cebg9tu/branch/master?svg=true)](https://ci.appveyor.com/project/snoyberg/codename-karka/branch/master)
+
 This is a repo to track plans and work on a whole bunch of
 tangentially-related projects and initiatives, mostly around
 refactoring libraries. The ultimate goal for all of this can be
