@@ -31,3 +31,6 @@
 [submodule "stack"]
 	path = stack
 	url = https://github.com/commercialhaskell/stack
+[submodule "typed-process"]
+	path = typed-process
+	url = https://github.com/fpco/typed-process

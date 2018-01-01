@@ -55,6 +55,8 @@ packages:
 - persistent/persistent-mysql
 - persistent/persistent-postgresql
 
+- typed-process
+
 flags:
   stack:
     hide-dependency-versions: true
