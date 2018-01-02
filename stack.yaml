@@ -56,6 +56,7 @@ packages:
 - persistent/persistent-postgresql
 
 - typed-process
+- pantry
 
 flags:
   stack:

@@ -1,0 +1,25 @@
+name: pantry
+version: 0.1.0.0
+
+dependencies:
+- base
+- rio
+
+default-extensions:
+- DeriveDataTypeable
+- DeriveGeneric
+- GeneralizedNewtypeDeriving
+- NoImplicitPrelude
+- OverloadedStrings
+
+library:
+  source-dirs: src
+
+tests:
+  spec:
+    source-dirs: test
+    main: Spec.hs
+    dependencies:
+    - hspec
+    - QuickCheck
+    - pantry
