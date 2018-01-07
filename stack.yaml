@@ -58,6 +58,9 @@ packages:
 - typed-process
 - pantry
 
+- unliftio/unliftio-core
+- unliftio/unliftio
+
 flags:
   stack:
     hide-dependency-versions: true
