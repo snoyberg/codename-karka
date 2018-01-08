@@ -37,3 +37,6 @@
 [submodule "unliftio"]
 	path = unliftio
 	url = https://github.com/fpco/unliftio
+[submodule "rio"]
+	path = rio
+	url = https://github.com/commercialhaskell/rio

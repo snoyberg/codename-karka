@@ -17,7 +17,7 @@ packages:
 - mono-traversable/mutable-containers
 
 - stack/
-- stack/subs/rio/
+- rio/
 
 - yesod/yesod-core
 - yesod/yesod-static
