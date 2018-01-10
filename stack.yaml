@@ -31,7 +31,7 @@ packages:
 - yesod/yesod-bin
 - yesod/yesod
 - yesod/yesod-eventsource
-- yesod/yesod-websockets
+# - yesod/yesod-websockets # streaming-commons 0.2
 
 - xml/xml-conduit
 - xml/xml-hamlet
@@ -40,9 +40,11 @@ packages:
 - yaml
 
 - wai/wai-extra
+- wai/warp
 
 - haskell-ide/project-template
 
+- http-client/http-client
 - http-client/http-conduit
 
 - logger/monad-logger
@@ -60,6 +62,8 @@ packages:
 
 - unliftio/unliftio-core
 - unliftio/unliftio
+
+- streaming-commons
 
 flags:
   stack:

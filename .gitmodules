@@ -40,3 +40,6 @@
 [submodule "rio"]
 	path = rio
 	url = https://github.com/commercialhaskell/rio
+[submodule "streaming-commons"]
+	path = streaming-commons
+	url = https://github.com/fpco/streaming-commons
