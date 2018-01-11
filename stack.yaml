@@ -58,7 +58,7 @@ packages:
 - persistent/persistent-postgresql
 
 - typed-process
-- pantry
+#- pantry
 
 - unliftio/unliftio-core
 - unliftio/unliftio
