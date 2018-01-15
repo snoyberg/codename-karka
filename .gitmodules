@@ -4,9 +4,6 @@
 [submodule "http-client"]
 	path = http-client
 	url = https://github.com/snoyberg/http-client
-[submodule "logger"]
-	path = logger
-	url = https://github.com/kazu-yamamoto/logger
 [submodule "mono-traversable"]
 	path = mono-traversable
 	url = https://github.com/snoyberg/mono-traversable

@@ -29,13 +29,11 @@ packages:
 - yesod/yesod-bin
 - yesod/yesod
 - yesod/yesod-eventsource
-# - yesod/yesod-websockets # streaming-commons 0.2
+- yesod/yesod-websockets
 
 - xml/xml-conduit
 - xml/xml-hamlet
 - xml/html-conduit
-
-- yaml
 
 - wai/wai-extra
 - wai/warp
@@ -51,17 +49,15 @@ packages:
 
 #- pantry
 
-- streaming-commons
-
 flags:
   stack:
     hide-dependency-versions: true
     supported-build: true
 
 extra-deps:
-- logger/monad-logger
-- persistent/persistent-test
 - project-template-0.2.0.1
 - typed-process-0.2.1.0
 - unliftio-0.2.4.0
 - unliftio-core-0.1.1.0
+- monad-logger-0.3.28
+- yaml-0.8.27
