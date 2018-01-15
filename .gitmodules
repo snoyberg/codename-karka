@@ -28,12 +28,6 @@
 [submodule "stack"]
 	path = stack
 	url = https://github.com/commercialhaskell/stack
-[submodule "typed-process"]
-	path = typed-process
-	url = https://github.com/fpco/typed-process
-[submodule "unliftio"]
-	path = unliftio
-	url = https://github.com/fpco/unliftio
 [submodule "rio"]
 	path = rio
 	url = https://github.com/commercialhaskell/rio

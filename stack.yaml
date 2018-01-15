@@ -6,9 +6,7 @@ packages:
 - conduit/network-conduit-tls
 - conduit/resourcet
 
-- mono-traversable/minlen
 - mono-traversable/mono-traversable
-- mono-traversable/mono-traversable-instances
 - mono-traversable/chunked-data
 - mono-traversable/classy-prelude
 - mono-traversable/classy-prelude-conduit
@@ -46,17 +44,12 @@ packages:
 - http-client/http-conduit
 
 - persistent/persistent
-- persistent/persistent-template
 - persistent/persistent-sqlite
 - persistent/persistent-mongoDB
 - persistent/persistent-mysql
 - persistent/persistent-postgresql
 
-- typed-process
 #- pantry
-
-- unliftio/unliftio-core
-- unliftio/unliftio
 
 - streaming-commons
 
@@ -69,3 +62,6 @@ extra-deps:
 - logger/monad-logger
 - persistent/persistent-test
 - project-template-0.2.0.1
+- typed-process-0.2.1.0
+- unliftio-0.2.4.0
+- unliftio-core-0.1.1.0
