@@ -47,12 +47,9 @@ packages:
 - http-client/http-client
 - http-client/http-conduit
 
-- logger/monad-logger
-
 - persistent/persistent
 - persistent/persistent-template
 - persistent/persistent-sqlite
-- persistent/persistent-test
 - persistent/persistent-mongoDB
 - persistent/persistent-mysql
 - persistent/persistent-postgresql
@@ -69,3 +66,7 @@ flags:
   stack:
     hide-dependency-versions: true
     supported-build: true
+
+extra-deps:
+- logger/monad-logger
+- persistent/persistent-test
