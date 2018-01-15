@@ -42,8 +42,6 @@ packages:
 - wai/wai-extra
 - wai/warp
 
-- haskell-ide/project-template
-
 - http-client/http-client
 - http-client/http-conduit
 
