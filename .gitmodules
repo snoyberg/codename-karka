@@ -1,9 +1,6 @@
 [submodule "conduit"]
 	path = conduit
 	url = https://github.com/snoyberg/conduit
-[submodule "haskell-ide"]
-	path = haskell-ide
-	url = https://github.com/fpco/haskell-ide
 [submodule "http-client"]
 	path = http-client
 	url = https://github.com/snoyberg/http-client
