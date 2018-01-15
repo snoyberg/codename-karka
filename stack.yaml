@@ -68,3 +68,4 @@ flags:
 extra-deps:
 - logger/monad-logger
 - persistent/persistent-test
+- project-template-0.2.0.1
