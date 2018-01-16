@@ -11,7 +11,6 @@ packages:
 - mono-traversable/classy-prelude-yesod
 - mono-traversable/conduit-combinators
 
-- stack/
 - rio/
 
 - yesod/yesod-core
