@@ -31,7 +31,6 @@ packages:
 - xml/xml-conduit
 - xml/html-conduit
 
-- http-client/http-client
 - http-client/http-conduit
 
 - persistent/persistent
