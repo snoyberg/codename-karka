@@ -31,8 +31,6 @@ packages:
 - xml/xml-conduit
 - xml/html-conduit
 
-- http-client/http-conduit
-
 - persistent/persistent
 - persistent/persistent-sqlite
 - persistent/persistent-mongoDB
@@ -55,3 +53,4 @@ extra-deps:
 - yaml-0.8.27
 - mono-traversable-1.0.8.0
 - wai-extra-3.0.22.0
+- http-conduit-2.3.0
